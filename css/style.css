@@ -1,0 +1,387 @@
+#panel-heading{background-color: #F0E68C;
+
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+
+	top:0px;
+	left:0;
+	width:100%;
+	z-index:1000;
+}
+    
+.row.content {
+	display:flex;
+	flex-direction:row;
+	
+}
+.review  a {display:block;text-decoration:none;color:white;background:#DAA520;padding:8px 20px; margin:2px;}
+.review   a:hover{background:#FFD700;color:black;}
+
+#sidebar-left {
+	width:15%;
+	background-color: #F0E68C;
+}
+#sidebar-left a {display:block;text-decoration:none;color:black;background:orange;padding:8px 20px;}
+#sidebar-left  a:hover{background:gray;color:white;}
+
+
+
+
+#sidebar-right {
+	width:20%;
+	background-color: #F0E68C;
+	
+}
+#sidebar-right a {display:block;text-decoration:none;color:black;background:orange;padding:8px 20px;}
+#sidebar-right  a:hover{background:gray;color:white;}
+
+
+
+#main {
+	width:65%;
+	min-height: 500px;
+	background-color: #EEE8AA;
+	
+	
+	
+}
+
+#msg_form {
+	text-align: center;
+	padding: 10px 10px;
+	font-size: 16px;
+}
+
+section h2 {
+	font-size:28px;
+}
+
+
+/*---------------------------------------------------*/
+/*----------- SECTION LOGIN--------------*/
+/*---------------------------------------------------*/
+
+section#login {
+	padding:40px 20px;
+}
+
+section#login h2 {
+	text-align: center;
+}
+
+section#login .login_body {
+	width:50%;
+	margin:40px auto;
+}
+
+section#login #msg_form {
+	
+}
+
+/*---------------------------------------------------*/
+/*----------- SECTION SIGNUP--------------*/
+/*---------------------------------------------------*/
+
+section#signup {
+	padding:40px 20px;
+}
+
+section#signup h2 {
+	text-align: center;
+}
+
+section#signup .signup_body {
+	width:50%;
+	margin:40px auto;
+}
+
+/*---------------------------------------------------*/
+/*----------- SECTION USER_LIST--------------*/
+/*---------------------------------------------------*/
+
+section#user_list {
+	padding:40px 20px;
+	
+}
+
+section#user_list .user_list_body {
+	padding: 20px;
+	font-size: 14px;
+}
+
+
+/*---------------------------------------------------*/
+/*----------- SECTION BOOK_LIST--------------*/
+/*---------------------------------------------------*/
+
+section#book_list {
+	padding:40px 20px;
+}
+
+section#book_list .book_list_body {
+	padding: 30px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+section#book_list .book_list_body .book {
+	width:20%;
+	padding: 10px;
+}
+section#book_list .book_list_body .book .book_wrap {
+	border:1px solid #ddd;
+}
+
+section#book_list .book_list_body .book a {
+	text-decoration: none;
+}
+section#book_list .book_list_body .book a:hover {
+	text-decoration: none;
+}
+
+
+section#book_list .book_list_body .book .cover {
+	width:100%;
+	padding: 5px;
+}
+
+section#book_list .book_list_body .book .info {
+	width:100%;
+	padding: 10px 5px;
+	font-size: 14px;
+	text-align: center;
+}
+
+section#book_list .book_list_body .book .info .price{
+	padding-top:10px;
+	font-size: 14px;
+}
+
+/*---------------------------------------------------*/
+/*----------- SECTION BOOK_PAGE--------------*/
+/*---------------------------------------------------*/
+
+
+section#book_page {
+	padding:40px 20px;
+}
+
+section#book_page .book_wrap {
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	padding: 10px 0;
+}
+
+section#book_page .book_wrap .description {
+	width:60%;
+	font-size: 14px;
+	padding: 0 20px 0 0;
+}
+
+section#book_page .book_wrap .book_right{
+	width:40%;
+	text-align: center;
+}
+
+section#book_page .book_wrap .book_right .cover {
+	width:80%;
+}
+
+section#book_page .book_wrap .book_right .price{
+	padding-top:20px;
+	font-size: 24px;
+}
+section#book_page .book_wrap .book_right .cart{
+	padding: 20px 0;
+}
+section#book_page .book_wrap .book_right .cart .count{
+	width:120px;
+	margin: 0 auto;
+}
+
+section#book_page .book_wrap .book_tableinfo {
+	width:100%;
+	font-size: 14px;
+	margin: 30px 0;
+}
+section#book_page .book_wrap .book_tableinfo table {
+	width: 100%;
+	border-collapse: collapse;
+}
+section#book_page .book_wrap .book_tableinfo tr:nth-of-type(even) {
+	background-color: #f9f9f9;
+}
+
+section#book_page .book_wrap .book_tableinfo tr td {
+	padding:11px 5px;
+}
+section#book_page .book_wrap .book_tableinfo tr:last-of-type td {
+	border-bottom-width: 0px;
+}
+section#book_page .book_wrap .book_tableinfo tr td:nth-of-type(1) {
+	padding-right:3px;
+	text-align: right;
+	width: 30%;
+}
+
+section#book_page .book_wrap .book_tableinfo tr td:nth-of-type(2) {
+	padding-left:3px;
+	text-align: left;
+	width: 70%;
+}
+
+section#book_page .book_reviews {
+	padding: 30px 0;
+	width:100%;
+}
+
+section#book_page .book_reviews .review {
+	width:100%;
+	margin: 10px 0;
+}
+section#book_page .book_reviews .review .title{
+	font-size: 14px;
+}
+
+
+/*---------------------------------------------------*/
+/*----------- SECTION ADMIN_FORM--------------*/
+/*---------------------------------------------------*/
+
+section#admin_form {
+	padding:40px;
+	
+}
+
+section#admin_form .admin_form_body {
+	width:100%;
+	max-width: 400px;
+	margin:40px 0;
+}
+
+section#admin_form #msg_form {
+	
+}
+
+
+form .list_option {
+	width:100%;
+	max-height:200px;
+	overflow-y: auto;
+	margin-bottom: 10px;
+}
+form .list_option label {
+	width:100%;
+	font-weight: 300;
+}
+
+
+
+/*---------------------------------------------------*/
+/*----------- SECTION CART--------------*/
+/*---------------------------------------------------*/
+
+
+section#cart {
+	padding:40px 20px;
+}
+
+
+section#cart .book_list {
+	width:100%;
+	padding:40px 0px;
+}
+
+
+section#cart .book {
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom:2px solid #ddd;
+	
+}
+
+section#cart .book .cover{
+	width:8%;
+	
+}
+section#cart .book .cover img {
+	width:100%;
+}
+
+section#cart .book .title {
+	width:40%;
+	font-size: 16px;
+	padding: 0 20px;
+}
+
+section#cart .book .count {
+	width:25%;
+	text-align: center;
+}
+
+section#cart .book .delete {
+	width:7%;
+	text-align: center;
+}
+
+section#cart .book .price {
+	width:20%;
+	font-size: 20px;
+	text-align: center;
+}
+section#cart .book .count .count_width {
+	width: 180px;
+}
+
+section#cart .sum {
+	width: 100%;
+	text-align: right;
+	padding: 30px 20px;
+}
+section#cart .sum .cost {
+	font-size: 26px;
+}
+
+
+
+/*---------------------------------------------------*/
+/*----------- FOOTER--------------*/
+/*---------------------------------------------------*/
+
+footer {
+	background-color: orange;
+	color: black;
+	padding: 15px;
+	font-size:16pt;
+}
+    
+   
+@media screen and (max-width: 767px) {
+    
+.sidenav {
+	height: auto;
+	padding: 15px;
+}
+.row.content {
+	flex-direction:column;
+}
+#sidebar-left {
+	width:100%;
+}
+#sidebar-right {
+	width:100%;
+}
+#main {
+	width:100%;	
+}
+
+
+}
